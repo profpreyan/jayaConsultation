@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>3-Month Creative Generalist — Program & Pricing</title>
+  <style>
+    body { background: #000; color: #fff; font-family: sans-serif; margin: 0; padding: 2rem; }
+    h1, h2 { color: #fff; }
+    .badge { display: inline-block; padding: 0.3rem 0.6rem; background: #ff2f2f; border-radius: 8px; font-size: 0.9rem; }
+    .container { max-width: 960px; margin: auto; display: grid; gap: 1.5rem; }
+    .card { background: #111; border: 1px solid rgba(255,0,0,0.4); border-radius: 12px; padding: 1rem; }
+    .card h2 { color: #ff2f2f; margin-top: 0; }
+    .objective { border-bottom: 1px solid rgba(255,0,0,0.4); padding: 0.5rem 0; }
+    .plan-container { display: grid; gap: 1rem; }
+    @media(min-width: 860px) { .plan-container { grid-template-columns: repeat(3,1fr); } }
+    .plan { background: #000; border: 1px solid #333; border-radius: 10px; padding: 1rem; position: relative; }
+    .plan.best { border: 1px solid #ff2f2f; box-shadow: 0 0 8px rgba(255,47,47,0.5); }
+    .plan .ribbon { position: absolute; top: 8px; right: -40px; transform: rotate(45deg); background: #ff2f2f; color: #fff; font-size: 0.7rem; padding: 4px 40px; }
+    ul { padding-left: 1.2rem; margin: 0; }
+    li { margin-bottom: 0.4rem; }
+    .price { font-weight: bold; font-size: 1.2rem; margin-top: 0.4rem; }
+    .per { font-size: 0.8rem; color: #aaa; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <span class="badge">3-month program</span>
+      <h1>Become a Creative Generalist and Educator in 3 months</h1>
+      <p>A focused path with clear monthly milestones and hands-on mentoring. Tier 02 is optimized for outcomes and commitment.</p>
+    </header>
+
+    <!-- Objectives -->
+    <section class="card">
+      <h2>Objectives</h2>
+      <div class="objective">
+        <strong>1) Learn how to learn</strong> <span style="float:right;color:#aaa">Month 1</span>
+        <p>Build a reliable meta-learning system you can reuse across tools and topics.</p>
+      </div>
+      <div class="objective">
+        <strong>2) Acquire core AI and software skills</strong> <span style="float:right;color:#aaa">Month 2</span>
+        <p>Develop hard skills that compound: AI tooling, workflows, and production software.</p>
+      </div>
+      <div class="objective" style="border:none">
+        <strong>3) Learn how to educate</strong> <span style="float:right;color:#aaa">Month 3</span>
+        <p>Translate expertise into teaching: structure, delivery, and student outcomes.</p>
+      </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="card">
+      <h2>Pricing</h2>
+      <div class="plan-container">
+        <div class="plan">
+          <p style="color:#aaa">Tier 01</p>
+          <div class="price">₹15,000 <span class="per">total</span></div>
+          <p class="per">₹5,000 per month</p>
+          <ul>
+            <li>Curated learning materials (YouTube, Smart NotebookLM, Custom GPT)</li>
+            <li>Self-assessment guide</li>
+            <li>Practice assignments, once per week</li>
+            <li>6 × 1hr consultations, biweekly</li>
+          </ul>
+        </div>
+
+        <div class="plan best">
+          <!-- <div class="ribbon">Best value</div> -->
+          <p style="color:#aaa">Tier 02</p>
+          <div class="price">₹36,000 <span class="per">total</span></div>
+          <p class="per">₹12,000 per month</p>
+          <ul>
+            <li>Everything in Tier 01</li>
+            <li>Practice cadence: 30 daily tasks, 4 weekly tasks, 1 end-of-month project</li>
+            <li>Interactive exercises, weekly</li>
+            <li>12 × 1hr consultations, weekly</li>
+          </ul>
+        </div>
+
+        <div class="plan">
+          <p style="color:#aaa">Tier 03</p>
+          <div class="price">₹75,000 <span class="per">total</span></div>
+          <p class="per">₹25,000 per month</p>
+          <ul>
+            <li>Everything in Tier 02</li>
+            <li>24 × 1hr consultations, 2hr per week</li>
+          </ul>
+        </div>
+      </div>
+      <!-- <p style="color:#aaa;font-size:0.8rem;margin-top:1rem">All figures in INR. Session counts and schedules match exactly as stated. Copy adjusted for clarity only.</p> -->
+    </section>
+  </div>
+</body>
+</html>
