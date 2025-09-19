@@ -2,10 +2,7 @@
   "framework": null,
   "outputDirectory": "public",
   "cleanUrls": true,
-  "headers": [
-    {
-      "source": "/",
-      "headers": [{ "key": "Content-Type", "value": "text/html; charset=utf-8" }]
-    }
+  "redirects": [
+    { "source": "/", "destination": "/index.html" }
   ]
 }
